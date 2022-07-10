@@ -1,0 +1,124 @@
+.container-Menu {
+  width: 100%;
+  margin: auto;
+  /*background-image: url(./img/BACKGROUNG3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body-Menu {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.container h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  background-color: #2ECC71;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.header h1 {
+  padding: 20px 0px;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  color: #F7F9F9;
+}
+
+.imagenBanner {
+  width: 100%;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+
+.container-Barra {
+  width: 100%;
+  background-color: #2ECC71;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  padding: 18px;
+}
+
+nav ul li {
+  float: left;
+  margin: 20px;
+}
+
+nav ul li a {
+  color: #F7F9F9;
+  margin: auto;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 18px;
+}
+
+nav ul li a:hover {
+  color: #F4D03F;
+  /* firefox */
+  -moz-transition: font-size 100ms linear 0s;
+  /* Chrome / Safari */
+  -webkit-transition: font-size 100ms linear 0s;
+  /* Default */
+  transition: font-size 100ms linear 0s;
+  font-size: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.menu li {
+  float: inline-end;
+  padding: 0;
+  background-color: #2ECC71;
+
+}
+
+.menu li a {
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.menu li:hover ul {
+  opacity: 1;
+  padding: 0;
+  visibility: visible;
+}
+
+.menu #desplegable {
+  display: block;
+  margin: 24px;
+}
+
+.menu #desplegable li {
+  padding: 20px;
+}
+
+.menu #desplegable li a {
+  margin: 10px;
+}
