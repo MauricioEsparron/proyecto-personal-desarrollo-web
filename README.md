@@ -1,1 +1,1 @@
-# proyecto-personal-desarrollo-web
+# proyecto personal desarrollo web desarrollado en JavaScript
